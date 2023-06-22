@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    background-color: silver;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lavagna{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    border:2px solid black;
+    width:50%;
+    height: 500px;
+}
+
+
+
+
+.card1{
+    display: flex;
+    flex-direction: column;
+   background-color: rgb(228, 228, 112);
+   transform:rotate(353deg) ;
+}
+
+
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(155, 236, 159);
+    transform:  rotate(5deg);
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(108, 165, 201);
+    transform:rotate(353deg) ;
+}
+.card4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(155, 236, 159);
+    transform:rotate(5deg) ;
+}
+.card5{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 228, 112);
+    transform:rotate(353deg) ;
+    
+}
+.card6{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(108, 165, 201);
+    transform:rotate(353deg) ;
+}
+.card7{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 228, 112);
+    transform:rotate(356deg) ;
+
+}
+.card8{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(155, 236, 159);
+    transform:rotate(358deg) ;
+}
+
+
+.lavagna div{
+   
+    width: 100px;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    line-height: 20px;
+    transition: all 2s;
+    height: 80px;
+   
+   
+   
+   
+}
+
+.lavagna div:hover{
+    transform: scale(1.4);
+    z-index: 10;
+    box-shadow: 23px 32px 37px 7px #000000
+}
